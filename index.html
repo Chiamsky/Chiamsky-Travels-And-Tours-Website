@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CHIAMSKY TRAVELS & TOURS | Nigerian Travel Agency</title>
+  <meta name="description" content="CHIAMSKY TRAVELS & TOURS helps you discover seamless local and international travel experiences with flight bookings, visa assistance, hotels, holiday packages, tours and more." />
+  <meta name="keywords" content="Nigerian travel agency, flights, visas, holiday packages, hotel bookings, airport transfers, tours, CHIAMSKY TRAVELS" />
+  <meta property="og:title" content="CHIAMSKY TRAVELS & TOURS | Nigerian Travel Agency" />
+  <meta property="og:description" content="Discover seamless local and international travel experiences with flight bookings, visa assistance, hotels, holiday packages, tours and more." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="images/hero-placeholder.svg" />
+  <meta property="og:url" content="https://example.com" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a href="#top" class="brand">
+        <span aria-hidden="true" class="brand-icon">✈️</span>
+        <div>
+          <span class="brand-name">CHIAMSKY</span>
+          <span class="brand-tag">TRAVELS & TOURS</span>
+        </div>
+      </a>
+      <nav class="main-nav" aria-label="Primary navigation">
+        <ul class="nav-list" id="navList">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#destinations">Destinations</a></li>
+          <li><a href="#packages">Tours</a></li>
+          <li><a href="#visa">Visa Assistance</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="header-actions">
+        <a href="#contact" class="btn btn-primary">Book a Trip</a>
+        <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false">
+          <span class="hamburger"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-overlay"></div>
+      <div class="hero-content container">
+        <p class="eyebrow">EXPLORE THE WORLD WITH CONFIDENCE</p>
+        <h1>Your Journey, Our Passion.</h1>
+        <p class="hero-text">Discover unforgettable destinations, seamless travel experiences, and personalized travel services with CHIAMSKY TRAVELS & TOURS.</p>
+        <div class="hero-actions">
+          <a href="#destinations" class="btn btn-secondary">Explore Destinations</a>
+          <a href="#contact" class="btn btn-primary">Book Your Trip</a>
+        </div>
+        <p class="hero-trust">Trusted travel solutions for individuals, families, groups & businesses.</p>
+      </div>
+      <form class="hero-search" id="heroSearchForm" aria-label="Travel search form">
+        <div class="search-grid">
+          <label>
+            From
+            <input type="text" name="heroFrom" id="heroFrom" placeholder="Lagos, Nigeria" required />
+          </label>
+          <label>
+            To
+            <input type="text" name="heroTo" id="heroTo" placeholder="Dubai, UAE" required />
+          </label>
+          <label>
+            Departure Date
+            <input type="date" name="heroDeparture" id="heroDeparture" required />
+          </label>
+          <label>
+            Return Date
+            <input type="date" name="heroReturn" id="heroReturn" required />
+          </label>
+          <label>
+            Travellers
+            <input type="number" name="heroTravellers" id="heroTravellers" min="1" value="1" required />
+          </label>
+        </div>
+        <button type="submit" class="btn btn-primary btn-full">Search</button>
+      </form>
+    </section>
+
+    <section class="stats-section" aria-label="Company statistics">
+      <div class="container stats-grid">
+        <article class="stat-card">
+          <span class="stat-value" data-target="10">0</span>
+          <p>Years Experience</p>
+        </article>
+        <article class="stat-card">
+          <span class="stat-value" data-target="2500">0</span>
+          <p>Happy Travelers</p>
+        </article>
+        <article class="stat-card">
+          <span class="stat-value" data-target="50">0</span>
+          <p>Destinations</p>
+        </article>
+        <article class="stat-card">
+          <span class="stat-value" data-target="98">0</span>
+          <p>Customer Satisfaction</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="about-section" id="about">
+      <div class="container about-grid">
+        <div class="about-text">
+          <span class="section-label">Travel Made Simple. Memories Made Forever.</span>
+          <h2>CHIAMSKY TRAVELS & TOURS is dedicated to helping travelers plan stress-free journeys locally and internationally.</h2>
+          <p>From flight bookings and holiday packages to visa assistance, hotel reservations, airport transfers and corporate travel, we deliver premium travel planning tailored for Nigerian individuals, families, groups and businesses.</p>
+          <ul class="feature-list">
+            <li>Flight bookings</li>
+            <li>Holiday packages</li>
+            <li>Visa assistance</li>
+            <li>Hotel reservations</li>
+            <li>Airport transfers</li>
+            <li>Corporate travel</li>
+            <li>Group tours</li>
+            <li>Honeymoon packages</li>
+            <li>Family vacations</li>
+          </ul>
+          <div class="small-features">
+            <article>
+              <h3>Expert Guidance</h3>
+              <p>Professional assistance throughout your journey.</p>
+            </article>
+            <article>
+              <h3>Personalized Service</h3>
+              <p>Travel plans designed around your needs and budget.</p>
+            </article>
+            <article>
+              <h3>Reliable Support</h3>
+              <p>Support before, during, and after your trip.</p>
+            </article>
+          </div>
+          <a href="#contact" class="btn btn-secondary">Learn More About Us</a>
+        </div>
+        <div class="about-image-card">
+          <img src="images/about-placeholder.svg" alt="Smiling travelers planning a trip" />
+        </div>
+      </div>
+    </section>
+
+    <section class="services-section" id="services">
+      <div class="container section-header">
+        <span>Everything You Need for Your Journey</span>
+        <h2>Premium services that take the stress out of travel.</h2>
+      </div>
+      <div class="container services-grid">
+        <article class="service-card">
+          <span class="service-icon">✈️</span>
+          <h3>Flight Booking</h3>
+          <p>Domestic and international flight reservations at competitive rates.</p>
+          <a href="#contact">Learn More</a>
+        </article>
+        <article class="service-card">
+          <span class="service-icon">🛂</span>
+          <h3>Visa Assistance</h3>
+          <p>Professional guidance through visa application processes and documentation.</p>
+          <a href="#contact">Learn More</a>
+        </article>
+        <article class="service-card">
+          <span class="service-icon">🏨</span>
+          <h3>Hotel Reservations</h3>
+          <p>Comfortable accommodation options for business and leisure travelers.</p>
+          <a href="#contact">Learn More</a>
+        </article>
+        <article class="service-card">
+          <span class="service-icon">🌴</span>
+          <h3>Holiday Packages</h3>
+          <p>Carefully planned vacations designed for unforgettable experiences.</p>
+          <a href="#contact">Learn More</a>
+        </article>
+        <article class="service-card">
+          <span class="service-icon">🚕</span>
+          <h3>Airport Transfers</h3>
+          <p>Convenient airport pickup and drop-off services.</p>
+          <a href="#contact">Learn More</a>
+        </article>
+        <article class="service-card">
+          <span class="service-icon">🏢</span>
+          <h3>Corporate Travel</h3>
+          <p>Reliable travel management solutions for businesses and organizations.</p>
+          <a href="#contact">Learn More</a>
+        </article>
+        <article class="service-card">
+          <span class="service-icon">👥</span>
+          <h3>Group Tours</h3>
+          <p>Organized travel experiences for groups, churches, schools, companies, and social organizations.</p>
+          <a href="#contact">Learn More</a>
+        </article>
+        <article class="service-card">
+          <span class="service-icon">💞</span>
+          <h3>Honeymoon Packages</h3>
+          <p>Romantic destinations and carefully planned honeymoon experiences.</p>
+          <a href="#contact">Learn More</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="destinations-section" id="destinations">
+      <div class="container section-header">
+        <span>Where Will You Go Next?</span>
+        <h2>Explore top international and Nigerian travel destinations.</h2>
+      </div>
+      <div class="container destination-grid">
+        <article class="destination-card">
+          <img src="images/destination-1.svg" alt="Dubai skyline at sunset" />
+          <div class="destination-copy">
+            <p class="destination-country">Dubai, UAE</p>
+            <h3>Modern luxury and desert adventure.</h3>
+            <a href="#contact" class="btn btn-link">Explore</a>
+          </div>
+        </article>
+        <article class="destination-card">
+          <img src="images/destination-2.svg" alt="London bridge over the Thames" />
+          <div class="destination-copy">
+            <p class="destination-country">London, UK</p>
+            <h3>Historic culture and timeless style.</h3>
+            <a href="#contact" class="btn btn-link">Explore</a>
+          </div>
+        </article>
+        <article class="destination-card">
+          <img src="images/destination-3.svg" alt="Paris city street view" />
+          <div class="destination-copy">
+            <p class="destination-country">Paris, France</p>
+            <h3>Romantic cities and world-class cuisine.</h3>
+            <a href="#contact" class="btn btn-link">Explore</a>
+          </div>
+        </article>
+        <article class="destination-card">
+          <img src="images/destination-4.svg" alt="Table Mountain in Cape Town" />
+          <div class="destination-copy">
+            <p class="destination-country">Cape Town, South Africa</p>
+            <h3>Nature, coastlines, and adventure.</h3>
+            <a href="#contact" class="btn btn-link">Explore</a>
+          </div>
+        </article>
+        <article class="destination-card">
+          <img src="images/destination-5.svg" alt="Zanzibar beach resort" />
+          <div class="destination-copy">
+            <p class="destination-country">Zanzibar, Tanzania</p>
+            <h3>Pristine beaches and island serenity.</h3>
+            <a href="#contact" class="btn btn-link">Explore</a>
+          </div>
+        </article>
+        <article class="destination-card">
+          <img src="images/destination-6.svg" alt="New York skyline at night" />
+          <div class="destination-copy">
+            <p class="destination-country">New York, USA</p>
+            <h3>Iconic city energy and unforgettable sights.</h3>
+            <a href="#contact" class="btn btn-link">Explore</a>
+          </div>
+        </article>
+      </div>
+      <div class="container nigerian-destinations">
+        <span class="section-label">Domestic Destinations</span>
+        <div class="nigeria-grid">
+          <article>
+            <h3>Lagos</h3>
+            <p>Vibrant city life, beaches, and cultural experiences.</p>
+          </article>
+          <article>
+            <h3>Abuja</h3>
+            <p>Modern capital tailored for business and leisure travel.</p>
+          </article>
+          <article>
+            <h3>Calabar</h3>
+            <p>Festivals, wildlife parks, and riverside charm.</p>
+          </article>
+          <article>
+            <h3>Obudu</h3>
+            <p>Cool highlands, scenic views, and luxury lodges.</p>
+          </article>
+          <article>
+            <h3>Jos</h3>
+            <p>Peaceful hills, cultural villages, and nature trails.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="packages-section" id="packages">
+      <div class="container section-header">
+        <span>Featured Travel Experiences</span>
+        <h2>Premium tour packages with curated inclusions.</h2>
+      </div>
+      <div class="container packages-grid">
+        <article class="package-card">
+          <span class="package-badge">5 Days / 4 Nights</span>
+          <h3>Dubai Luxury Escape</h3>
+          <p class="price">Starting from: <strong>₦850,000</strong></p>
+          <ul>
+            <li>Hotel accommodation</li>
+            <li>Airport transfers</li>
+            <li>City tour</li>
+            <li>Desert safari</li>
+          </ul>
+          <a href="#contact" class="btn btn-primary">View Package</a>
+        </article>
+        <article class="package-card">
+          <span class="package-badge">6 Days / 5 Nights</span>
+          <h3>Cape Town Adventure</h3>
+          <p class="price">Starting from: <strong>₦720,000</strong></p>
+          <ul>
+            <li>Hotel accommodation</li>
+            <li>Airport transfers</li>
+            <li>Table Mountain experience</li>
+            <li>City tour</li>
+          </ul>
+          <a href="#contact" class="btn btn-primary">View Package</a>
+        </article>
+        <article class="package-card">
+          <span class="package-badge">5 Days / 4 Nights</span>
+          <h3>Zanzibar Beach Escape</h3>
+          <p class="price">Starting from: <strong>₦650,000</strong></p>
+          <ul>
+            <li>Beach resort</li>
+            <li>Airport transfer</li>
+            <li>Island tour</li>
+            <li>Breakfast</li>
+          </ul>
+          <a href="#contact" class="btn btn-primary">View Package</a>
+        </article>
+      </div>
+      <p class="package-note">Package prices are indicative and may change based on travel dates, availability, exchange rates, and selected options.</p>
+    </section>
+
+    <section class="choose-section">
+      <div class="container choose-grid">
+        <div class="choose-copy">
+          <span class="section-label">Why Nigerians Choose CHIAMSKY</span>
+          <h2>Trusted travel expertise for local and international journeys.</h2>
+          <div class="choose-features">
+            <div><span>✔</span><p>Experienced Travel Consultants</p></div>
+            <div><span>✔</span><p>Competitive Travel Deals</p></div>
+            <div><span>✔</span><p>Personalized Itineraries</p></div>
+            <div><span>✔</span><p>Transparent Communication</p></div>
+            <div><span>✔</span><p>Local & International Expertise</p></div>
+            <div><span>✔</span><p>Dedicated Customer Support</p></div>
+          </div>
+        </div>
+        <div class="choose-image-card">
+          <img src="images/happy-travelers.svg" alt="Happy travelers celebrating a trip" />
+        </div>
+      </div>
+    </section>
+
+    <section class="visa-section" id="visa">
+      <div class="container visa-grid">
+        <div class="visa-copy">
+          <span class="section-label">Planning to Travel Abroad? Let Us Help.</span>
+          <h2>Navigating visa requirements can be stressful. Our travel consultants help you understand documentation requirements and prepare your application correctly.</h2>
+          <p>Our visa assistance includes guidance for embassy requirements, document preparation, and travel planning from start to finish.</p>
+          <div class="visa-list">
+            <span>United Kingdom</span>
+            <span>United States</span>
+            <span>Canada</span>
+            <span>Schengen Europe</span>
+            <span>UAE</span>
+            <span>South Africa</span>
+          </div>
+          <a href="#contact" class="btn btn-secondary">Get Visa Assistance</a>
+          <p class="disclaimer">Visa approval is determined by the relevant embassy or immigration authority and cannot be guaranteed.</p>
+        </div>
+        <div class="visa-image-card">
+          <img src="images/visa-placeholder.svg" alt="Travel documents and visa assistance" />
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonials-section">
+      <div class="container section-header">
+        <span>What Our Travelers Say</span>
+        <h2>Customer stories from travelers who trusted CHIAMSKY.</h2>
+      </div>
+      <div class="container testimonials-slider" id="testimonialSlider" aria-label="Customer testimonial carousel">
+        <button class="slider-btn prev" id="testimonialPrev" aria-label="Previous testimonial">‹</button>
+        <div class="testimonial-track" id="testimonialTrack">
+          <article class="testimonial-card active" data-index="0">
+            <p>"CHIAMSKY made our Dubai trip completely stress-free. Everything from the flight booking to the hotel and airport transfer was well organized."</p>
+            <div class="testimonial-author">
+              <strong>Amaka Okafor</strong>
+              <span>Lagos, Nigeria</span>
+            </div>
+          </article>
+          <article class="testimonial-card" data-index="1">
+            <p>"Their team was very helpful with our travel arrangements. Professional, responsive and easy to work with."</p>
+            <div class="testimonial-author">
+              <strong>Emeka Nwosu</strong>
+              <span>Abuja, Nigeria</span>
+            </div>
+          </article>
+          <article class="testimonial-card" data-index="2">
+            <p>"Our family vacation was beautifully planned. We had an amazing experience."</p>
+            <div class="testimonial-author">
+              <strong>Blessing Adeyemi</strong>
+              <span>Lagos, Nigeria</span>
+            </div>
+          </article>
+          <article class="testimonial-card" data-index="3">
+            <p>"The visa support and travel details were explained clearly. We felt confident every step of the way."</p>
+            <div class="testimonial-author">
+              <strong>Chinedu Eze</strong>
+              <span>Port Harcourt, Nigeria</span>
+            </div>
+          </article>
+        </div>
+        <button class="slider-btn next" id="testimonialNext" aria-label="Next testimonial">›</button>
+      </div>
+      <div class="slider-dots" id="testimonialDots" aria-label="Testimonial navigation"></div>
+    </section>
+
+    <section class="process-section">
+      <div class="container section-header">
+        <span>Your Journey Starts in 4 Simple Steps</span>
+      </div>
+      <div class="container process-grid">
+        <article>
+          <div class="step-number">1</div>
+          <h3>Tell Us Your Plans</h3>
+        </article>
+        <article>
+          <div class="step-number">2</div>
+          <h3>We Create Your Travel Plan</h3>
+        </article>
+        <article>
+          <div class="step-number">3</div>
+          <h3>Confirm & Prepare</h3>
+        </article>
+        <article>
+          <div class="step-number">4</div>
+          <h3>Travel & Enjoy</h3>
+        </article>
+      </div>
+    </section>
+
+    <section class="faq-section">
+      <div class="container section-header">
+        <span>Frequently Asked Questions</span>
+        <h2>Answers to common travel and booking questions.</h2>
+      </div>
+      <div class="container faq-grid" id="faqAccordion">
+        <article class="faq-item">
+          <button class="faq-question" aria-expanded="false">Do you book international flights?<span class="faq-toggle">+</span></button>
+          <div class="faq-answer"><p>Yes, we book international flights for individuals, families, groups and corporate travelers with reliable carriers and flexible options.</p></div>
+        </article>
+        <article class="faq-item">
+          <button class="faq-question" aria-expanded="false">Do you assist with visa applications?<span class="faq-toggle">+</span></button>
+          <div class="faq-answer"><p>We provide visa guidance, document checks, and application support for major destinations.</p></div>
+        </article>
+        <article class="faq-item">
+          <button class="faq-question" aria-expanded="false">Do you arrange hotel accommodation?<span class="faq-toggle">+</span></button>
+          <div class="faq-answer"><p>Yes. We arrange hotel stays from budget-friendly to luxury hotels, tailored to your travel style.</p></div>
+        </article>
+        <article class="faq-item">
+          <button class="faq-question" aria-expanded="false">Do you organize group tours?<span class="faq-toggle">+</span></button>
+          <div class="faq-answer"><p>We organize group tours for churches, schools, companies and social organizations across local and international destinations.</p></div>
+        </article>
+        <article class="faq-item">
+          <button class="faq-question" aria-expanded="false">Can you arrange airport transfers?<span class="faq-toggle">+</span></button>
+          <div class="faq-answer"><p>Yes, we arrange safe and timely airport pickups and drop-offs for your convenience.</p></div>
+        </article>
+        <article class="faq-item">
+          <button class="faq-question" aria-expanded="false">Do you offer corporate travel services?<span class="faq-toggle">+</span></button>
+          <div class="faq-answer"><p>We deliver corporate travel management services to support business trips and executive travel needs.</p></div>
+        </article>
+        <article class="faq-item">
+          <button class="faq-question" aria-expanded="false">Can I customize a holiday package?<span class="faq-toggle">+</span></button>
+          <div class="faq-answer"><p>Absolutely. We design custom holiday packages based on your dates, budget, and interests.</p></div>
+        </article>
+        <article class="faq-item">
+          <button class="faq-question" aria-expanded="false">Do you offer domestic travel within Nigeria?<span class="faq-toggle">+</span></button>
+          <div class="faq-answer"><p>Yes, we arrange domestic travel across Nigeria including Lagos, Abuja, Calabar, Obudu, Jos and other locations.</p></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="container contact-grid">
+        <div class="contact-copy">
+          <span class="section-label">Ready to Plan Your Next Adventure?</span>
+          <h2>Send your travel request and our consultants will support your next trip.</h2>
+          <p>Complete the form to start planning your custom travel experience today.</p>
+        </div>
+        <form class="contact-form" id="contactForm" novalidate>
+          <div class="form-row">
+            <label>Full Name<input type="text" name="name" id="contactName" placeholder="Full Name" required /></label>
+            <label>Email Address<input type="email" name="email" id="contactEmail" placeholder="you@example.com" required /></label>
+          </div>
+          <div class="form-row">
+            <label>Phone Number<input type="tel" name="phone" id="contactPhone" placeholder="+234 800 123 4567" required /></label>
+            <label>Destination<input type="text" name="destination" id="contactDestination" placeholder="e.g. Paris, France" required /></label>
+          </div>
+          <div class="form-row">
+            <label>Travel Date<input type="date" name="travelDate" id="contactDate" required /></label>
+            <label>Number of Travelers<input type="number" name="travelers" id="contactTravelers" min="1" value="1" required /></label>
+          </div>
+          <label>Service Required
+            <select name="service" id="contactService" required>
+              <option value="">Select a service</option>
+              <option>Flight Booking</option>
+              <option>Visa Assistance</option>
+              <option>Hotel Booking</option>
+              <option>Holiday Package</option>
+              <option>Airport Transfer</option>
+              <option>Corporate Travel</option>
+              <option>Group Tour</option>
+              <option>Honeymoon Package</option>
+              <option>Other</option>
+            </select>
+          </label>
+          <label>Message<textarea name="message" id="contactMessage" rows="4" placeholder="Tell us about your travel plans" required></textarea></label>
+          <button type="submit" class="btn btn-primary btn-full">Send Travel Request</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <a class="whatsapp-float" id="whatsappButton" href="#" target="_blank" rel="noopener noreferrer" aria-label="Chat with us on WhatsApp">
+    <span>Chat With Us</span>
+  </a>
+
+  <button class="back-to-top" id="backToTop" aria-label="Scroll back to top">↑</button>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h3>CHIAMSKY TRAVELS & TOURS</h3>
+        <p>Premium travel services for Nigerian travelers and global visitors. Replace this placeholder company description with your own brand story.</p>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#destinations">Destinations</a></li>
+          <li><a href="#packages">Tours</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Travel Services</h4>
+        <ul>
+          <li><a href="#services">Flight Booking</a></li>
+          <li><a href="#visa">Visa Assistance</a></li>
+          <li><a href="#services">Hotels</a></li>
+          <li><a href="#packages">Tours</a></li>
+          <li><a href="#services">Corporate Travel</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <p>Lagos, Nigeria</p>
+        <p>Phone: +234 XXX XXX XXXX</p>
+        <p>Email: info@chiamskytravels.com</p>
+        <p>WhatsApp: 234XXXXXXXXXX</p>
+        <div class="social-links">
+          <a href="#" aria-label="Instagram">Instagram</a>
+          <a href="#" aria-label="Facebook">Facebook</a>
+          <a href="#" aria-label="TikTok">TikTok</a>
+          <a href="#" aria-label="X">X</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© <span id="currentYear"></span> CHIAMSKY TRAVELS & TOURS. All Rights Reserved.</p>
+      <p><a href="#">Privacy Policy</a> | <a href="#">Terms & Conditions</a></p>
+    </div>
+  </footer>
+
+  <div class="modal-overlay hidden" id="successModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal-content">
+      <h2 id="modalTitle">Thank you for choosing CHIAMSKY TRAVELS & TOURS!</h2>
+      <p>Your travel request has been received. One of our travel consultants will contact you shortly.</p>
+      <button class="btn btn-primary" id="closeModal">Close</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
